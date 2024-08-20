@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,160 +8,359 @@
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
     <div class="container">
-        <div class="terminal">
-            <div class="terminal_toolbar">
-                <div class="current_tab">
-                    doc-wann@admin <exitbtncolour>&#9746;</exitbtncolour> <newtabbtncolour>+</newtabbtncolour>
-                </div>
-                <div class="controller_tab">
-                    &#9866; &#9744; &#9746;
-                </div>
-            </div>
-            <div class="terminal_body">
-                <div class="terminal_promt">
-                    <span class="terminal_bling">$ Sejam bem vindos ao meu web-portifólio! Espero que gostem!</span>
-                    <span class="terminal_cursor"></span>
-                </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">Sobre Mim</a> <a href="#projects">Projetos</a><a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="project" id="about-me">
+            <section class="aboutme">
+                <h1><strong>Prazer, meu nome é Henrique!</strong></h1>
+                <h3>Sobre Mim</h3>
+                <p>Olá! Sou Henrique Vaini Danielewicz, um desenvolvedor de software com sólida experiência em
+                    liderar projetos de alta complexidade.</p>
+                <p>Com uma paixão por resolver problemas desafiadores, tenho trabalhado ativamente na criação de
+                    soluções inovadoras em diversas áreas, como web scraping, data parsing, e desenvolvimento de
+                    jogos.</p>
+                <p>Minha jornada no desenvolvimento de software começou há alguns anos, e desde então, tenho me
+                    dedicado a aprimorar minhas habilidades e explorar novas tecnologias. Minha abordagem é sempre
+                    centrada na criação de soluções que não apenas atendem às necessidades dos usuários, mas que
+                    também excedem as expectativas em termos de eficiência, segurança e usabilidade.</p>
 
-        <section class="project" id="web-scrappers">
-            <h2>Web Scrappers 	&#128423;</h2>
-            <p>Durante o período de um ano trabalhei no desenvolvimento de tecnologias de Scrapping, como desenvolvedor lead, conduzindo a criação de uma robusta rede de coletagem de dados, projetada para agrupar e analisar dados de mercado em larga escala, com uma abordagem que prioriza a discrição e a eficiência.</p>
-            <button onclick="toggleDetails('web-scrappers-details')">
-                <span>Ver Detalhes</span>
-            </button>
-            <div id="web-scrappers-details" class="details">
-                <h3>/*Especificações Técnicas*/</h3>
-                <ul>
-                    <li><strong>&lt;Linguagens e Frameworks&gt;</strong> C#, Next.js</li>
-                    <li><strong>&lt;Mascaramento de IP&gt;</strong> Proxy rotativo, VPN, Desenvolvimento em Núvem</li>
-                    <li><strong>&lt;Controle de Detecção&gt;</strong> Remoção de indicadores de automação, headers fictícios, comportamento humano simulado</li>
-                </ul>
-                <h3>/*Impacto e Utilidade*/</h3>
-                <p>Os dados coletados foram rotineramente utilizados por uma ampla gama de profissionais, oferecendo uma ferramenta que permitiu a análise precisa e em tempo real de tendências de mercado. A tecnologia continua em uso atualmente, e tem a infraestrutra organizada de modo que permita expansão das atividades.</p>
-                <h4>Descrição Completa</h4>
-                <p>Linguagens e Frameworks: O backend foi construído em C#, com um painel de ações desenvolvido em Next.js para facilitar a visualização e gerenciamento das operações de scraping.</p>
-                <p>Mascaramento de IP: Implementamos um sistema de proxy rotativo, hospedado em uma VPN integrada em servidores em núvem, o que permitiu a máscara de rede e acesso seguro a bancos de dados específicos. Esse setup garantiu que as operações fossem praticamente indetectáveis, permitindo uma coleta contínua e segura de informações sensíveis.</p>
-                <p>Controle de Detecção: Para evitar a detecção de bots, adotamos várias técnicas avançadas:</p>
-                <p>Remoção de Indicadores de Automação: Todas as configurações que pudessem denunciar a existência de um robô foram removidas ou alteradas.</p>
-                <p>Headers Fictícios e Dados Dinâmicos: Integração de headers dinâmicos, informações de hardware, tela e navegador simulando um ambiente de usuário real.</p>
-                <p>Simulação de Comportamento Humano: Implementamos cooldowns entre requisições, movimentos de scroll e ações dinâmicas no HTML, que imitam perfeitamente o comportamento humano.</p>
-            </div>
-        </section>
+                <h3>Experiência Profissional</h3>
+                <p>Como desenvolvedor lead em vários projetos, adquiri uma vasta experiência em diversas linguagens
+                    de programação e frameworks, sempre focado em entregar produtos de alta qualidade. Aqui estão
+                    alguns dos projetos em que atuei:</p>
+                <p><strong>Rede de Web Scrappers:</strong> Desenvolvi uma solução complexa de web scraping
+                    utilizando C#, com técnicas avançadas de mascaramento de IP e controle de detecção de bots. Esse
+                    projeto foi tão importante para mim quanto para a empresa parceira, permitindo uma análise
+                    precisa e em tempo real das tendências de mercado.</p>
+                <p><strong>Desenvolvimento Front-End:</strong> Meus projetos de aprofundamento em front-end tomaram
+                    a forma de ferramenta para jogadores de Dungeons & Dragons, focada em simplicidade e eficiência,
+                    desenvolvida com React e CSS. A aplicação se tornou útil para vários jogadores nas minhas mesas,
+                    permitindo uso facilitado dos personagens.</p>
+                <p><strong>Data-Parser para Grandes Volumes de Dados:</strong> Liderando o desenvolvimento de um
+                    parser robusto, otimizado para uso de bancos de dados e integrado com inteligência artificial
+                    para validação de informações, este projeto permitiu a correção e uniformização de grandes
+                    bancos de dados, gerando insights valiosos para a empresa parceira.</p>
+                <p><strong>Estudos de Desenvolvimento de Jogos:</strong> Realizei diversos estudos e
+                    desenvolvimentos em Unity e Godot, criando protótipos de jogos 2D, 3D e 2.5D. Minha exploração
+                    dessas engines me permitiu aplicar conceitos avançados de programação orientada a objetos e
+                    design de jogos.</p>
+                <p><strong>Projetos Maiores Vinculados à 42SP:</strong> Durante minha formação na 42SP, desenvolvi
+                    projetos como o Push-Swap e LIBFT, destacando-se pela eficiência e precisão em comunicação de
+                    dados e desenvolvimento de bibliotecas em C.</p>
 
-        <section class="project" id="data-parser">
-            <h2>Data-Parser &#9874;</h2>
-            <p>Uma solução avançada para o processamento e validação de grandes volumes de dados, utilizando técnicas de inteligência artificial para garantir a precisão e uniformidade dos dados.</p>
-            <button onclick="toggleDetails('data-parser-details')">
-                <span>Ver Detalhes</span>
-            </button>
-            <div id="data-parser-details" class="details">
-                <h3>/*Especificações Técnicas*/</h3>
-                <ul>
-                    <li><strong>&lt;Linguagens e Ferramentas&gt;</strong> C#, Python</li>
-                    <li><strong>&lt;Validação de Dados com IA&gt;</strong> LLMs com fine-tuning em bancos de dados</li>
-                    <li><strong>&lt;Otimização e Performance&gt;</strong> Otimizado para PostgreSQL, técnicas de sorting, modularidade</li>
-                </ul>
-                <h3>/*Impacto e Utilidade*/</h3>
-                <p>Vital para o processo empregado, a ferramenta permitiu a correção e uniformização de grandes bancos de dados usando modelos de larga escala de linguagem (LLMs), em um sistema complexo de validações, para entrega precisa e rápida de dados limpos e validados.</p>
-                <h4>Descrição Completa</h4>
-                <p>O parser foi desenvolvido principalmente em C#, com módulos específicos em Python para validação de dados, aproveitando as capacidades de processamento de dados dessas linguagens.</p>
-                <p>Utilizamos Large Language Models (LLMs) ajustados com fine-tuning em bancos de dados específicos, o que nos permitiu criar um arsenal de referências robustas para a uniformização e validação do conteúdo. As técnicas de prompting e gerenciamento de redes neurais garantiram que os dados fossem processados de forma eficiente e precisa.</p>
-                <p>O parser foi otimizado para trabalhar com bancos de dados PostgreSQL, sendo capaz de receber, confirmar e tratar grandes volumes de dados. Utilizamos técnicas de sorting e controle de frequência de subidas e requisições para evitar delays e overflows, assegurando uma operação fluida e confiável.</p>
-                <p>O projeto foi estruturado com foco na modularidade e CleanCode, facilitando futuras manutenções e adaptações conforme as necessidades da aplicação evoluem.</p>
-            </div>
-        </section>
+                <h3>Minhas Habilidades</h3>
+                <p><strong>Linguagens de Programação:</strong> C#, Python, JavaScript, C, C++
+                <p><strong>Frameworks e Ferramentas:</strong> React, Next.js, Unity, Godot, PostgreSQL
+                <p><strong>Desenvolvimento Front-end:</strong> HTML5, CSS3, JavaScript (ES6+)
+                <p><strong>Desenvolvimento Back-end:</strong> Integrações com bancos de dados, criação de APIs,
+                    automação de processos
+                <p><strong>Web Scraping:</strong> Técnicas avançadas de mascaramento e controle de detecção
+                <p><strong>Inteligência Artificial:</strong> Aplicação de LLMs e técnicas de validação de dados
+                <p><strong>Desenvolvimento de Jogos:</strong> Prototipagem e desenvolvimento de jogos 2D, 3D, e 2.5D
 
-        <section class="project" id="rpg-assistant">
-            <h2>Assistente de Mesas de RPG 	&#9860;</h2>
-            <p>Uma simples utilidade de gestão de personagens, criada para acomodar um grupo seleto de usuários - A ferramenta foi criada tendo em vista a escassez de boas ferramentas no mercado.</p>
-            <button onclick="toggleDetails('rpg-assistant-details')">
-                <span>Ver Detalhes</span>
-            </button>
-            <div id="rpg-assistant-details" class="details">
-                <h3>/*Especificações Técnicas*/</h3>
-                <ul>
-                    <li><strong>&lt;Stack de Desenvolvimento&gt;</strong> React, CSS</li>
-                    <li><strong>&lt;Localização&gt;</strong> PT-BR nativo com suporte a outras línguas</li>
-                    <li><strong>&lt;Autosuficiência&gt;</strong> Pode ser executado em qualquer máquina sem complicações adicionais</li>
-                </ul>
-                <h3>/*Impacto e Utilidade*/</h3>
-                <p>A ferramenta nunca foi implementada fora do escopo local, e foi virtualmente meu primeiro projeto totalmente em front end.</p>
+                <h3>O que Me Motiva</h3>
+                <p>Sou fortemente motivado pelo desafio e pela oportunidade de desenvolver tecnologias inovadoras em
+                    todas as frentes da programação. Minha jornada como desenvolvedor tem sido guiada por um desejo
+                    incessante de criar soluções que vão além do convencional, impulsionado pela curiosidade e pela
+                    ambição de explorar territórios ainda não mapeados na tecnologia.</p>
+                <p>Grande parte dos meus avanços individuais foram forjados pela vontade de construir algo único,
+                    que desafie o status quo e ofereça novas perspectivas. Seja na criação de uma ferramenta
+                    revolucionária ou na otimização de processos existentes, estou sempre em busca de projetos que
+                    me desafiem a expandir meus conhecimentos e a aplicar minhas habilidades de maneiras novas e
+                    criativas.</p>
+                <p>No ambiente profissional, minha motivação se alinha fortemente com os interesses e valores éticos
+                    das empresas com as quais colaboro. Acredito que o desenvolvimento de tecnologia não deve ser
+                    apenas uma questão de eficiência, mas também de propósito. Meu desejo de criar algo útil e
+                    funcional para o grupo ao qual estou afiliado vai além do simples cumprimento de tarefas. Eu
+                    busco agregar valor real, contribuindo para o sucesso coletivo com soluções que são tanto
+                    tecnicamente sólidas quanto eticamente responsáveis.</p>
+                <p>Cada projeto que abraço é uma oportunidade de aprender, inovar e impactar positivamente o mundo
+                    ao meu redor. Acredito que a verdadeira satisfação no desenvolvimento de software vem da
+                    capacidade de transformar desafios em realizações, ideias em realidades, e de colaborar em
+                    projetos que realmente fazem a diferença.</p>
+                </selection>
+            </section>
 
-                <h4>Descrição Completa</h4>
-                <p>Stack de Desenvolvimento: Desenvolvi o projeto utilizando React para o front-end e CSS para estilização. A aplicação foi projetada para ser extremamente leve e rápida, permitindo fácil execução em qualquer ambiente.</p>
-                <p>Localização: O projeto é nativamente localizado em PT-BR, mas foi desenvolvido com suporte para a fácil adição de outras línguas, utilizando bibliotecas de internacionalização próprias.</p>
-                <p>Autosuficiência: A aplicação é completamente autossuficiente, não requerendo servidores anexados e podendo ser executada em qualquer máquina sem necessidade de configuração adicional.</p>
-                <p>Desenvolvida em apenas dois dias, a ferramenta se destacou pela simplicidade e eficácia, oferecendo uma solução prática para jogadores de RPG gerenciarem seus personagens. Com uma interface inspirada nas Cartas de Magia da Wizards of the Coast, a aplicação tornou-se uma referência na comunidade de jogadores, principalmente pela sua acessibilidade e foco em usabilidade.</p>
-            </div>
-        </section>
+            <section id="projects">
+                <section class="project" id="web-scrappers">
+                    <h2>Web Scrappers &#128423;</h2>
+                    <p>Durante o período de um ano trabalhei no desenvolvimento de tecnologias de Scrapping, como
+                        desenvolvedor lead, conduzindo a criação de uma robusta rede de coletagem de dados,
+                        projetada
+                        para agrupar e analisar dados de mercado em larga escala, com uma abordagem que prioriza a
+                        discrição e a eficiência.</p>
+                    <button onclick="toggleDetails('web-scrappers-details')">
+                        <span>Ver Detalhes</span>
+                    </button>
+                    <div id="web-scrappers-details" class="details">
+                        <h3>/*Especificações Técnicas*/</h3>
+                        <ul>
+                            <li><strong>&lt;Linguagens e Frameworks&gt;</strong> C#, Next.js</li>
+                            <li><strong>&lt;Mascaramento de IP&gt;</strong> Proxy rotativo, VPN, Desenvolvimento em
+                                Núvem</li>
+                            <li><strong>&lt;Controle de Detecção&gt;</strong> Remoção de indicadores de automação,
+                                headers fictícios, comportamento humano simulado</li>
+                        </ul>
+                        <h3>/*Impacto e Utilidade*/</h3>
+                        <p>Os dados coletados foram rotineramente utilizados por uma ampla gama de profissionais,
+                            oferecendo uma ferramenta que permitiu a análise precisa e em tempo real de tendências
+                            de
+                            mercado. A tecnologia continua em uso atualmente, e tem a infraestrutra organizada de
+                            modo
+                            que permita expansão das atividades.</p>
+                        <h4>Descrição Completa</h4>
+                        <p>Linguagens e Frameworks: O backend foi construído em C#, com um painel de ações
+                            desenvolvido
+                            em Next.js para facilitar a visualização e gerenciamento das operações de scraping.</p>
+                        <p>Mascaramento de IP: Implementamos um sistema de proxy rotativo, hospedado em uma VPN
+                            integrada em servidores em núvem, o que permitiu a máscara de rede e acesso seguro a
+                            bancos
+                            de dados específicos. Esse setup garantiu que as operações fossem praticamente
+                            indetectáveis, permitindo uma coleta contínua e segura de informações sensíveis.</p>
+                        <p>Controle de Detecção: Para evitar a detecção de bots, adotamos várias técnicas avançadas:
+                        </p>
+                        <p>Remoção de Indicadores de Automação: Todas as configurações que pudessem denunciar a
+                            existência de um robô foram removidas ou alteradas.</p>
+                        <p>Headers Fictícios e Dados Dinâmicos: Integração de headers dinâmicos, informações de
+                            hardware, tela e navegador simulando um ambiente de usuário real.</p>
+                        <p>Simulação de Comportamento Humano: Implementamos cooldowns entre requisições, movimentos
+                            de
+                            scroll e ações dinâmicas no HTML, que imitam perfeitamente o comportamento humano.</p>
+                    </div>
+                </section>
+
+                <section class="project" id="data-parser">
+                    <h2>Data-Parser &#9874;</h2>
+                    <p>Uma solução avançada para o processamento e validação de grandes volumes de dados, utilizando
+                        técnicas de inteligência artificial para garantir a precisão e uniformidade dos dados.</p>
+                    <button onclick="toggleDetails('data-parser-details')">
+                        <span>Ver Detalhes</span>
+                    </button>
+                    <div id="data-parser-details" class="details">
+                        <h3>/*Especificações Técnicas*/</h3>
+                        <ul>
+                            <li><strong>&lt;Linguagens e Ferramentas&gt;</strong> C#, Python</li>
+                            <li><strong>&lt;Validação de Dados com IA&gt;</strong> LLMs com fine-tuning em bancos de
+                                dados</li>
+                            <li><strong>&lt;Otimização e Performance&gt;</strong> Otimizado para PostgreSQL,
+                                técnicas de
+                                sorting, modularidade</li>
+                        </ul>
+                        <h3>/*Impacto e Utilidade*/</h3>
+                        <p>Vital para o processo empregado, a ferramenta permitiu a correção e uniformização de
+                            grandes
+                            bancos de dados usando modelos de larga escala de linguagem (LLMs), em um sistema
+                            complexo
+                            de validações, para entrega precisa e rápida de dados limpos e validados.</p>
+                        <h4>Descrição Completa</h4>
+                        <p>O parser foi desenvolvido principalmente em C#, com módulos específicos em Python para
+                            validação de dados, aproveitando as capacidades de processamento de dados dessas
+                            linguagens.
+                        </p>
+                        <p>Utilizamos Large Language Models (LLMs) ajustados com fine-tuning em bancos de dados
+                            específicos, o que nos permitiu criar um arsenal de referências robustas para a
+                            uniformização e validação do conteúdo. As técnicas de prompting e gerenciamento de redes
+                            neurais garantiram que os dados fossem processados de forma eficiente e precisa.</p>
+                        <p>O parser foi otimizado para trabalhar com bancos de dados PostgreSQL, sendo capaz de
+                            receber,
+                            confirmar e tratar grandes volumes de dados. Utilizamos técnicas de sorting e controle
+                            de
+                            frequência de subidas e requisições para evitar delays e overflows, assegurando uma
+                            operação
+                            fluida e confiável.</p>
+                        <p>O projeto foi estruturado com foco na modularidade e CleanCode, facilitando futuras
+                            manutenções e adaptações conforme as necessidades da aplicação evoluem.</p>
+                    </div>
+                </section>
+
+                <section class="project" id="rpg-assistant">
+                    <h2>Assistente de Mesas de RPG &#9860;</h2>
+                    <p>Uma simples utilidade de gestão de personagens, criada para acomodar um grupo seleto de
+                        usuários
+                        - A ferramenta foi criada tendo em vista a escassez de boas ferramentas no mercado.</p>
+                    <button onclick="toggleDetails('rpg-assistant-details')">
+                        <span>Ver Detalhes</span>
+                    </button>
+                    <div id="rpg-assistant-details" class="details">
+                        <h3>/*Especificações Técnicas*/</h3>
+                        <ul>
+                            <li><strong>&lt;Stack de Desenvolvimento&gt;</strong> React, CSS</li>
+                            <li><strong>&lt;Localização&gt;</strong> PT-BR nativo com suporte a outras línguas</li>
+                            <li><strong>&lt;Autosuficiência&gt;</strong> Pode ser executado em qualquer máquina sem
+                                complicações adicionais</li>
+                        </ul>
+                        <h3>/*Impacto e Utilidade*/</h3>
+                        <p>A ferramenta nunca foi implementada fora do escopo local, e foi virtualmente meu primeiro
+                            projeto totalmente em front end.</p>
+
+                        <h4>Descrição Completa</h4>
+                        <p>Stack de Desenvolvimento: Desenvolvi o projeto utilizando React para o front-end e CSS
+                            para
+                            estilização. A aplicação foi projetada para ser extremamente leve e rápida, permitindo
+                            fácil
+                            execução em qualquer ambiente.</p>
+                        <p>Localização: O projeto é nativamente localizado em PT-BR, mas foi desenvolvido com
+                            suporte
+                            para a fácil adição de outras línguas, utilizando bibliotecas de internacionalização
+                            próprias.</p>
+                        <p>Autosuficiência: A aplicação é completamente autossuficiente, não requerendo servidores
+                            anexados e podendo ser executada em qualquer máquina sem necessidade de configuração
+                            adicional.</p>
+                        <p>Desenvolvida em apenas dois dias, a ferramenta se destacou pela simplicidade e eficácia,
+                            oferecendo uma solução prática para jogadores de RPG gerenciarem seus personagens. Com
+                            uma
+                            interface inspirada nas Cartas de Magia da Wizards of the Coast, a aplicação tornou-se
+                            uma
+                            referência na comunidade de jogadores, principalmente pela sua acessibilidade e foco em
+                            usabilidade.</p>
+                    </div>
+                </section>
 
 
-        <section class="project" id="game-development">
-            <h2>Estudos de Desenvolvimento de Jogos &#127221;</h2>
-            <p>Uma série de estudos e experimentos utilizando as engines Unity e Godot, explorando diferentes tipos de jogos e mecânicas.</p>
-            <button onclick="toggleDetails('game-development-details')">
-                <span>Ver Detalhes</span>
-            </button>
-            <div id="game-development-details" class="details">
-                <h3>/*Especificações Técnicas*/</h3>
-                <ul>
-                    <li><strong>&lt;Tipos de Jogos Desenvolvidos&gt;</strong> 2D, 3D, 2.5D</li>
-                    <li><strong>&lt;Ferramentas e Bibliotecas&gt;</strong> Unity, Godot, C#</li>
-                    <li><strong>&lt;Godot com C++&gt;</strong> Inicialmente em GDScript, migrado para C++ nativo</li>
-                </ul>
-                <h3>/*Impacto e Utilidade*/</h3>
-                <p>Estes estudos forneceram uma base de experimentos e noções úteis para futuras explorações no desenvolvimento de jogos.</p>
-                
-                <h4>Descrição Completa</h4>
-                <p>Todo o desenvolvimento foi feito utilizando bibliotecas nativas do Unity. Tendo criado ferramentas específicas em C# para suportar as necessidades do projeto, garantindo um controle total sobre o processo de desenvolvimento.</p>
-                <p>Inicialmente, utilizei GDScript para desenvolvimento em Godot, mas logo migrei para C++ nativo, devido à necessidade de maior controle e performance nas aplicações.</p>
-                <p>Estes estudos forneceram uma base sólida para futuras explorações no campo de desenvolvimento de jogos, além de expandir minha compreensão das ferramentas e linguagens utilizadas. A criação de jogos em diversos estilos e mecânicas permitiu não só o aprimoramento técnico, mas também a aplicação prática de conceitos de programação orientada a objetos e design de software.</p>
-            </div>
-        </section>
+                <section class="project" id="game-development">
+                    <h2>Estudos de Desenvolvimento de Jogos &#127221;</h2>
+                    <p>Uma série de estudos e experimentos utilizando as engines Unity e Godot, explorando
+                        diferentes
+                        tipos de jogos e mecânicas.</p>
+                    <button onclick="toggleDetails('game-development-details')">
+                        <span>Ver Detalhes</span>
+                    </button>
+                    <div id="game-development-details" class="details">
+                        <h3>/*Especificações Técnicas*/</h3>
+                        <ul>
+                            <li><strong>&lt;Tipos de Jogos Desenvolvidos&gt;</strong> 2D, 3D, 2.5D</li>
+                            <li><strong>&lt;Ferramentas e Bibliotecas&gt;</strong> Unity, Godot, C#</li>
+                            <li><strong>&lt;Godot com C++&gt;</strong> Inicialmente em GDScript, migrado para C++
+                                nativo
+                            </li>
+                        </ul>
+                        <h3>/*Impacto e Utilidade*/</h3>
+                        <p>Estes estudos forneceram uma base de experimentos e noções úteis para futuras explorações
+                            no
+                            desenvolvimento de jogos.</p>
 
-        <section class="project" id="42sp-projects" >
-            <h2>Projetos Maiores Vinculados à 42SP &#9734;</h2>
-            <p>Durante minha formação na 42SP, atuei desenvolvendo projetos desafiadores, que exigiram uma profunda compreensão de C e desenvolvimento de baixo nível.</p>
-            <div style="text-align: center;"></div>
-            <button onclick="toggleDetails('42sp-projects-details')">
-                <span>Ver Detalhes</span>
-            </button>
-            <div id="42sp-projects-details" class="details">
-                <h3>/*Push-Swap &#128389;*/</h3>
-                <button-link id="push_swap" >Link para o Projeto</button-link>
+                        <h4>Descrição Completa</h4>
+                        <p>Todo o desenvolvimento foi feito utilizando bibliotecas nativas do Unity. Tendo criado
+                            ferramentas específicas em C# para suportar as necessidades do projeto, garantindo um
+                            controle total sobre o processo de desenvolvimento.</p>
+                        <p>Inicialmente, utilizei GDScript para desenvolvimento em Godot, mas logo migrei para C++
+                            nativo, devido à necessidade de maior controle e performance nas aplicações.</p>
+                        <p>Estes estudos forneceram uma base sólida para futuras explorações no campo de
+                            desenvolvimento
+                            de jogos, além de expandir minha compreensão das ferramentas e linguagens utilizadas. A
+                            criação de jogos em diversos estilos e mecânicas permitiu não só o aprimoramento
+                            técnico,
+                            mas também a aplicação prática de conceitos de programação orientada a objetos e design
+                            de
+                            software.</p>
+                    </div>
+                </section>
+
+                <section class="project" id="42sp-projects">
+                    <h2>Projetos Maiores Vinculados à 42SP &#9734;</h2>
+                    <p>Durante minha formação na 42SP, atuei desenvolvendo projetos desafiadores, que exigiram uma
+                        profunda compreensão de C e desenvolvimento de baixo nível.</p>
+                    <div style="text-align: center;"></div>
+                    <button onclick="toggleDetails('42sp-projects-details')">
+                        <span>Ver Detalhes</span>
+                    </button>
+                    <div id="42sp-projects-details" class="details">
+                        <h3>/*Push-Swap &#128389;*/</h3>
+                        <button-link id="push_swap">Link para o Projeto</button-link>
+                        <script>
+                            document.getElementById('push_swap').addEventListener('click', function () {
+                                window.open("https://github.com/doc-wann/push_swap");
+                            });
+                        </script>
+                        <p>Desenvolvido utilizando operações de bitwise, permitindo uma comunicação extremamente
+                            eficiente e precisa a nível de bits.</p>
+                        <h4>Descrição Completa</h4>
+                        <p>O Push-Swap foi desenvolvido utilizando operações de bitwise, permitindo uma comunicação
+                            extremamente eficiente e precisa a nível de bits. O algoritmo, desenvolvido por mim, foi
+                            inspirado na lógica das máquinas de socar de arcade, garantindo que os dados sejam
+                            transmitidos apenas quando a confirmação do último bit é recebida, utilizando um sistema
+                            de
+                            alavancas lógicas para calcular tempo e eficiência.</p>
+                        <p>Impacto: Este projeto destacou-se pela rapidez e precisão da comunicação, superando
+                            outras
+                            soluções similares dentro da mesma instituição e se tornando uma referência em termos de
+                            eficiência no envio de dados.</p>
+                        <h3>/*LIBFT &#128366;*/</h3>
+                        <buttonlink id="libft">Link para o Projeto</buttonlink>
+                        <script>
+                            document.getElementById('libft').addEventListener('click', function () {
+                                window.open("https://github.com/doc-wann/LIBFT");
+                            });
+                        </script>
+                        <p>Uma biblioteca de funções em C para propósitos gerais de desenvolvimento, destacando-se
+                            pela
+                            sua eficiência e ausência de leaks de memória.</p>
+                        <h4>Descrição Completa</h4>
+                        <p>Funções Críticas: Desenvolvi uma biblioteca de funções em C para propósitos gerais de
+                            desenvolvimento, destacando-se pela sua eficiência e ausência de leaks de memória. A
+                            função
+                            printf() foi particularmente crucial, permitindo o debug de programas complexos em tempo
+                            de
+                            execução. Funções como split(), que divide blocos de dados em listas, e outras funções
+                            de
+                            validação foram essenciais para a construção de lógicas complexas e confiáveis.</p>
+                        <p>Impacto: A LIBFT tornou-se uma ferramenta fundamental no meu kit de desenvolvimento,
+                            facilitando a criação de programas robustos e eficientes durante e após minha formação
+                            na
+                            42SP.</p>
+                    </div>
+                </section>
+
+                <section id="contact" class="project">
+                    <h2>Contato</h2>
+                    <p>
+                        Se você gostaria de entrar em contato comigo para discutir oportunidades de colaboração ou
+                        projetos, sinta-se à vontade para me enviar um e-mail ou uma mensagem através das redes
+                        sociais.
+                    </p>
+                    <p><strong>
+                            E-mail:
+                        </strong>
+                        <a href="mailto:kikevdani@gmail.com" class="email">kikevdani@gmail.com</a>
+                    </p>
+                    <p><strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/henrique-vaini-danielewicz-a143aa214/"
+                            target="_blank">Henrique
+                            Vaini
+                            Danielewicz</a>
+                    </p>
+                    <p><strong>GitHub:</strong>
+                        <a href="https://github.com/doc-wann" target="_blank">doc-wann</a>
+                    </p>
+
+                </section>
+
                 <script>
-                    document.getElementById('push_swap').addEventListener('click', function() {
-                        window.open("https://github.com/doc-wann/push_swap");
+                    //Smooth scrolling effect
+                    document.querySelectorAll('nav a').forEach(anchor => {
+                        anchor.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        });
                     });
                 </script>
-                <p>Desenvolvido utilizando operações de bitwise, permitindo uma comunicação extremamente eficiente e precisa a nível de bits.</p>
-                <h4>Descrição Completa</h4>
-                <p>O Push-Swap foi desenvolvido utilizando operações de bitwise, permitindo uma comunicação extremamente eficiente e precisa a nível de bits. O algoritmo, desenvolvido por mim, foi inspirado na lógica das máquinas de socar de arcade, garantindo que os dados sejam transmitidos apenas quando a confirmação do último bit é recebida, utilizando um sistema de alavancas lógicas para calcular tempo e eficiência.</p>
-                <p>Impacto: Este projeto destacou-se pela rapidez e precisão da comunicação, superando outras soluções similares dentro da mesma instituição e se tornando uma referência em termos de eficiência no envio de dados.</p>
-                <h3>/*LIBFT &#128366;*/</h3>
-                <buttonlink id="libft" >Link para o Projeto</buttonlink>
-                <script>
-                    document.getElementById('libft').addEventListener('click', function() {
-                        window.open("https://github.com/doc-wann/LIBFT");
-                    });
-                </script>
-                <p>Uma biblioteca de funções em C para propósitos gerais de desenvolvimento, destacando-se pela sua eficiência e ausência de leaks de memória.</p>
-                <h4>Descrição Completa</h4>
-                <p>Funções Críticas: Desenvolvi uma biblioteca de funções em C para propósitos gerais de desenvolvimento, destacando-se pela sua eficiência e ausência de leaks de memória. A função printf() foi particularmente crucial, permitindo o debug de programas complexos em tempo de execução. Funções como split(), que divide blocos de dados em listas, e outras funções de validação foram essenciais para a construção de lógicas complexas e confiáveis.</p>
-                <p>Impacto: A LIBFT tornou-se uma ferramenta fundamental no meu kit de desenvolvimento, facilitando a criação de programas robustos e eficientes durante e após minha formação na 42SP.</p>
-            </div>
-        </section>
-    </div>
-</div>
-
-        <footer>
-            <p>Desenvolvido por Henrique Vaini Danielewicz © 2024</p>
-        </footer>
+            </section>
+            <footer>
+                <p>Desenvolvido por Henrique Vaini Danielewicz © 2024</p>
+            </footer>
     </div>
 
     <script src="scripts.js"></script>
 </body>
+
 </html>

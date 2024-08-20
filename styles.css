@@ -15,22 +15,6 @@ body {
     padding: 20px;
 }
 
-header {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #272826;
-    color: #fff;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
 .project {
     background-color: #fff;
     border-radius: 8px;
@@ -41,11 +25,38 @@ header p {
     font-family: monospace
 }
 
+.project h1 {
+    font-family: monospace;
+    color: #1E5F7D;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    text-align: left;
+}
+
+.abilities h3 {
+    font-family: monospace;
+    color: #ae6711;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    text-align: left;
+}
+
 .project h2 {
     font-family: monospace;
     color: #1E5F7D;
     font-size: 40px;
     font-weight: 800;
+    width: 100%;
+    text-align: left;
+}
+
+.project h3 {
+    font-family: monospace;
+    color: #307D1E;
+    font-size: 20px;
+    font-weight: 700;
     width: 100%;
     text-align: left;
 }
@@ -78,6 +89,15 @@ header p {
 
 .s3 {
     color: #ff00ff;
+}
+
+.aboutme h3 {
+    font-family: monospace;
+    color: #ae6711;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    text-align: left;
 }
 
 .buttonlink {
@@ -271,6 +291,28 @@ button span {
     margin-left: 10px;
     margin-top: 5px;
     animation: curbl 1200ms linear infinite;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 
 @keyframes curbl {
